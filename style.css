@@ -166,3 +166,29 @@ border-radius: 8px;
 background: #FF5400;
 border: none;
 }
+
+/* choose your destinaion */
+
+.destination{
+    text-align: center;
+    
+}
+.img2{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 48px;
+  
+}
+.img3{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 25px;
+}
+.img4{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    
+}
