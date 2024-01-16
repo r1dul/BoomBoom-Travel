@@ -1,174 +1,297 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BoomBoom Travel</title>
-    <link rel="stylesheet" href="style.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap"
-        rel="stylesheet">
-
-</head>
-
-<body>
-    <header>
-        <nav class="nav-container">
-            <div class="logo">
-                <img src="Images/Group 40071 (2).png" alt="">
-                <p class="nav-name">BoomBoom <span class="travel">Travel</span></p>
-            </div>
-            <div class="home">
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Packages</a></li>
-                    <li><a href="">Testimonial</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-        <section class="banner">
-            <div class="banner-main">
-                <div>
-                    <h1>Explore Your Travel</h1>
-                    <p>Embarking on a journey to explore new destinations is an exhilarating endeavor that opens doors to a
-                        world of discovery and wonder. Travel, at its core, is a transformative experience that
-                        transcends
-                        geographical boundaries and introduces us to diverse cultures, landscapes, and traditions. </p>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>BoomBoom Travel</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+    </head>
+    <body>
+        <header class="container">
+            <nav>
+                <div class="logo">
+                    <img src="Images/Group 40071 (2).png" alt="" />
+                    <h1>BoomBoom <span class="Travel">Travel</span></h1>
                 </div>
-                <div class="input">
-                    <input type="text" placeholder="Where go">
-                    <select class="option-when">
-                        <option value="volvo">When</option>
-                        <option value="saab">Saab</option>
-                        <option value="opel">Opel</option>
-                        <option value="audi">Audi</option>
-                    </select>
-                    <select class="option-when">
-                        <option value="volvo">Select type</option>
-                        <option value="saab">Saab</option>
-                        <option value="opel">Opel</option>
-                        <option value="audi">Audi</option>
-                    </select>
-                    <button class="find-btn">Find Now</button>
+                <ul>
+                    <li>Home</li>
+                    <li>Packages</li>
+                    <li>Testimonial</li>
+                    <li>Blog</li>
+                    <li>Contact</li>
+                    <i id="icon" class="fa fa-bars"></i>
+                </ul>
+            </nav>
+            <!-- banner section -->
+            <section class="banner-section">
+                <div class="banner-main">
+                    <div class="banner-description">
+                        <h1>Explore Your Travel</h1>
+                        <p>
+                            A travel agency website serves as a digital platform
+                            for <br />
+                            travelers to explore and book various travel-related
+                            services. These websites play.
+                        </p>
+                    </div>
+                    <div class="search-section">
+                        <div class="search-bar">
+                            <input
+                                class="same-bar"
+                                type="text"
+                                placeholder="Where go"
+                            />
+                            <select class="same-bar" id="cars">
+                                <option value="volvo">When</option>
+                                <option value="saab">Vacation</option>
+                                <option value="opel">New year party</option>
+                                <option value="audi">holi days</option>
+                            </select>
+                            <select class="same-bar" id="cars">
+                                <option value="volvo">Select Type</option>
+                                <option value="saab">solo travelo</option>
+                                <option value="opel">
+                                    Travel with friends
+                                </option>
+                                <option value="audi">travel with family</option>
+                            </select>
+                            <button class="same-bar">
+                                <span
+                                    ><i class="fa-solid fa-magnifying-glass"></i
+                                ></span>
+                                Find Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </header>
+        <!-- End Header Section -->
+        <div class="container">
+            <section class="popular-tours">
+                <div class="Tour-description">
+                    <h1>Our Popular Tours</h1>
+                    <p>
+                        Support for multiple payment methods, including credit
+                        <br />
+                        cards, debit cards, and online payment systems.
+                    </p>
+                    <ul>
+                        <li>
+                            Contact information and customer support channels
+                            <br />
+                            (e.g., live chat, email, or phone) for assistance.
+                        </li>
+                        <li>
+                            Information about travel insurance options and the
+                            ability to <br />
+                            purchase insurance through the website.
+                        </li>
+                        <li>
+                            Links to social media profiles for sharing <br />
+                            travel experiences and connecting with the
+                            community.
+                        </li>
+                    </ul>
+                    <p>
+                        These websites play a crucial role in the travel
+                        industry <br />
+                        by providing users with information about destinations,
+                        <br />
+                        flights, hotels, car rentals, <br />
+                        tours, and other travel services.
+                    </p>
+                    <button class="btn-primary">Read More</button>
+                </div>
+                <div class="tour-img">
+                    <img src="Images/Rectangle 4.png" alt="" />
+                </div>
+            </section>
+        </div>
+        <!-- Destination Section start -->
+        <section class="container">
+            <div class="destination-info">
+                <h1>Choose Your Destination</h1>
+                <p>
+                    Interacting with locals and fellow travelers to broaden
+                    perspectives. <br />
+                    Making new friends and building connections with people from
+                    different backgrounds.
+                </p>
+            </div>
+
+            <div class="img-part-1">
+                <div class="img-row-1">
+                    <img src="Images/Rectangle 5.png" alt="" />
+                    <p class="common-name">Maldives</p>
+                </div>
+                <div class="img-row-1">
+                    <img src="Images/Rectangle 8.png" alt="" />
+                    <p class="common-name">Indonesia</p>
+                </div>
+            </div>
+
+            <div class="img-part-2">
+                <div class="img-row-sri">
+                    <img src="Images/Rectangle 6.png" alt="" />
+                    <p id="location">Srilanka</p>
+                </div>
+                <div class="img-row-north">
+                    <img src="Images/Rectangle 7.png" alt="" />
+                    <p id="location">North America</p>
+                </div>
+                <div class="img-row-kash">
+                    <img src="Images/Rectangle 9.png" alt="" />
+                    <p id="location">Kashmir</p>
+                </div>
+            </div>
+
+            <div class="img-part-3">
+                <div class="img-row-ban">
+                    <img src="Images/Rectangle 11.png" alt="" />
+                    <p id="location">Bangladesh</p>
+                </div>
+                <div class="img-row-bandor">
+                    <img src="Images/Rectangle 10.png" alt="" />
+                    <p id="location">Bandarban</p>
                 </div>
             </div>
         </section>
-    </header>
-    <main class="section-2">
-        <div class="popular">
-            <h1 class="our-popular">Our Popular Tours</h1>
-            <div class="ul">
-                <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit <br> massa. Sodales
-                    dictumst
-                    nec nibh pellentesque.</p>
-                <ul>
-                    <li>Tempus euismod lacus mauris dignissim quis in ultrices. Magna <br> nullam odio neque diam.
-                        Sociis
-                        erat at .</li>
-                    <li>Adipiscing ornare pellentesque mauris volutpat tortor vitae platea <br> porta lacus. Lectus
-                        suspendisse nullam.</li>
-                    <li> Accumsan eget et turpis praesent lorem egestas enim elit <br> bibendum. Risus at in.</li>
-
-                </ul>
-                <p>Amet consectetur. Vulputate commodo felis molestie risus <br>
-                    ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. <br> Habitant adipiscing
-                    risus
-                    natoque aliquet. Id bibendum nunc senectus <br> semper tincidunt. </p>
-
-            </div>
-            <button class="btn-read">Read More</button>
-        </div>
-        <div>
-            <img src="Images/Rectangle 4.png" alt="">
-        </div>
-    </main>
-    <section>
-        <div class="destination">
-            <h1 class="choose1">Choose Your Destination</h1>
-            <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. <br> Sodales dictumst
-                nec nibh pellentesque.</p>
-        </div>
-        <div class="img2">
-            <img src="Images/Rectangle 5.png" alt="">
-            <img src="Images/Rectangle 8.png" alt="">
-        </div>
-        <div class="img3">
-            <img src="Images/Rectangle 6.png" alt="">
-            <img src="Images/Rectangle 7.png" alt="">
-            <img src="Images/Rectangle 9.png" alt="">
-        </div>
-        <div class="img4">
-            <img src="Images/Rectangle 11.png" alt="">
-            <img src="Images/Rectangle 10.png" alt="">
-        </div>
-    </section>
-    <section class="choose">
-        <h1 class="why">Why Choose Us</h1>
-        <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. <br> Sodales dictumst nec
-            nibh pellentesque.</p>
-    </section>
-    <section class="icon1">
-        <div class="hotel">
-            <img src="Images/hotel 1.png" alt="">
-            <h2 class="handpicked">Handpicked Hotels</h2>
-            <p>Amet consectetur. Vulputate commodo felis molestie risus ornare <br> nulla amet et. Libero commodo
-                sagittis dignissim adipiscing quis. <br> Habitant adipiscing risus natoque aliquet. </p>
-        </div>
-        <div class="map">
-            <img src="Images/map 1.png" alt="">
-            <h2 class="world">World Class Service</h2>
-            <p>Amet consectetur. Vulputate commodo felis molestie risus ornare <br> nulla amet et. Libero commodo
-                sagittis dignissim adipiscing quis. <br> Habitant adipiscing risus natoque aliquet. </p>
-        </div>
-    </section>
-    <section class="icon2">
-        <div class="price">
-            <img src="Images/price-tag 1.png" alt="">
-            <h2 class="best">Best Price Guarantee</h2>
-            <p>Amet consectetur. Vulputate commodo felis molestie risus ornare <br> nulla amet et. Libero commodo
-                sagittis dignissim adipiscing quis. <br> Habitant adipiscing risus natoque aliquet. </p>
-        </div>
-    </section>
-    <section class="last-section">
-        <div class="for-border">
-            <div class="letter">
-                <h2 class="Newsletter">Newsletter</h2>
-                <p class="get-your">Get your daily dose of travel news & tips. Sign up today!</p>
-
-                <div class="letter2">
-                    <input class="email" type="email" name="" id="" placeholder="Enter your name">
-                    <input class="password" type="password" name="" id="" placeholder="Enter your email">
-                    <button class="subs">Subscribe</button>
+        <!-- Destination Section End -->
+        <!-- About Section Start -->
+        <section class="container">
+            <h1 class="review-title">Reviews around the world</h1>
+            <div class="traveller-main">
+                
+                <div class="traveller-info">
+                    <img class="traveller" src="Images/about1.jpg" alt="">
+                    <p>Try using various angles when taking photos. Like getting down close to the ground, looking down on the situation, or even just an odd angle you wouldn't normally use. Experiment and have fun – remember, you are capturing memories.</p>
+                    <h1>Hazzaj Anik</h1>
+                    <p>Traveller</p>
+                </div>
+                <div class="traveller-info">
+                    <img class="traveller" src="Images/about2.jpg" alt="">
+                    <p>Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+                    <h1>Lotiful Islam Rifat</h1>
+                    <p>Traveller</p>
+                </div>
+                <div class="traveller-info">
+                    <img class="traveller" src="Images/about3.jpg" alt="">
+                    <p>Whether you’re taking your kids on vacation, embarking on a trip with your parents or travelling with extended family, a trip in the company of family can be a uniquely fun and fulfilling experience.
+                    </p>
+                    <h1>Ridul Ahmed</h1>
+                    <p>Traveller</p>
                 </div>
             </div>
-        </div>
-        <div class="bg">
-            <div class="rotate">
-                <h3 class="travel-com">Travel.com</h3>
-                <h2 class="save-up">Save up to 70%</h2>
-            </div>
-        </div>
-    </section>
-    <footer class="last">
-        <div class="background">
-            <div class="img-footer">
-                <img class="last-logo" src="Images/Group 40071 (2).png" alt="">
-                <h2 class="bombom">BoomBoom <span class="travel">Travel</span></h2>
-            </div>
-            <div class="last-img">
-                <p>Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit orci potenti vulputate.
-                    Leo erat maecenas vitae elementum ultricies nullam. </p>
-                <img class="social-img" src="Images/Social.png" alt="">
-            </div>
-            <hr class="hr">
-            <h6 class="h6">2017, All Rights Reserved.</h6>
-        </div>
-    </footer>
-</body>
+        </section>
+        <!-- About Section End -->
 
+        <!-- why choose us -->
+        <section class="container">
+            <div class="why-choose-us-title">
+                <h1>Why Choose Us</h1>
+                <p>
+                    Interacting with locals and fellow travelers to broaden
+                    perspectives. <br />
+                    Making new friends and building connections with people from
+                    different backgrounds.
+                </p>
+            </div>
+            <div class="why-choose-us">
+                <div class="handpicked">
+                    <img src="Images/hotel 1.png" alt="" />
+                    <h3>Handpicked Hotels</h3>
+                    <p>
+                        Purpose of the trip, and individual preferences. Here
+                        are some aspects of the travel.
+                    </p>
+                </div>
+                <div class="handpicked" id="map">
+                    <img src="Images/map 1.png" alt="" />
+                    <h3>World Class Service</h3>
+                    <p>
+                        Travel experiences can vary widely depending on the
+                        destination, purpose of the trip, and individual
+                        preferences.
+                    </p>
+                </div>
+            </div>
+            <div class="handpicked" id="price">
+                <img src="Images/price-tag 1.png" alt="" />
+                <h3>Best Price Guarantee</h3>
+                <p>
+                    Experiencing and learning about the local culture,
+                    traditions, and customs. Trying local cuisine and
+                    participating.
+                </p>
+            </div>
+        </section>
+        <!-- why choose us section end -->
+        <!-- newsletter section -->
+        <section class="container">
+            <div class="newsletter">
+                <div class="newsletter-form">
+                    <h3>Newsletter</h3>
+                    <p>
+                        Get your daily dose of travel news & tips. Sign <br />
+                        up today!
+                    </p>
+                    <hr />
+                    <form class="contact">
+                        <input type="text" placeholder="Enter Your Name" />
+                        <input
+                            type="email"
+                            placeholder="Enter Your Email"
+                            id=""
+                        />
+                        <input
+                            class="subcribe-btn"
+                            type="subcribe"
+                            value="subcribe"
+                        />
+                        <!-- <button class="btn-primary">subscribe</button>    -->
+                    </form>
+                </div>
+                <div class="newsletter-img">
+                    <img src="Images/Rectangle 8 (1).png" alt="" />
+                    <div class="save-up">
+                        <p>Travel.com</p>
+                        <h3>Save up to 70%</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer-title">
+                <div class="logo">
+                    <img src="Images/Group 40071 (2).png" alt="" />
+                    <h1>BoomBoom <span class="Travel">Travel</span></h1>
+                </div>
+                <p>
+                    A travel agency website serves as a digital platform for
+                    <br />
+                    travelers to explore and book various travel-related
+                    services. These websites play.
+                </p>
+                <div class="social-icon">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-github"></i>
+                </div>
+            </div>
+            <hr />
+            <p class="copyright">2024, All Rights Reserved.</p>
+        </footer>
+    </body>
 </html>
